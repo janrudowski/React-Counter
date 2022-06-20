@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&display=swap');
+
+* {
+  font-family: 'Karla', sans-serif;
+  box-sizing: border-box;
+}
+
+.counter-container {
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+.counter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #000;
+  padding: 10px;
+  height: 80px;
+  border-radius: 5px;
+}
+
+.counter-number {
+  font-size: 64px;
+  padding: 10px 25px;
+  user-select: none;
+}
+
+.counter-change {
+  font-size: 32px;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  transition: font-size 300ms ease-in-out;
+}
+
+.counter-change:hover {
+  font-size: 36px;
+}
